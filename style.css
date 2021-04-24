@@ -1,0 +1,76 @@
+html,body {
+ margin: 0;
+ padding: 0;
+
+}
+#main {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(142, 142, 247);
+}
+#mainContent {
+ background-color: rgb(60, 60, 139);
+ height: 62.5vh;
+ width: 50%;
+ text-align: center;
+ border-radius: 20px;
+}
+p {
+ font-size: 30px;
+ color: white;
+}
+label{
+ color: blue;
+ font-size: 25px;
+ margin-top: 25px;
+}
+#nameInput {
+ width: 70%;
+ height: 5vh;
+ font-size: 20px;
+ outline-style: none;
+ border-radius: 10px;
+
+}
+#emailInput {
+  width: 70%;
+ height: 5vh;
+ font-size: 20px;
+ outline-style: none;
+ border-radius: 10px;
+}
+#messageInput {
+ width: 70%;
+ height: 15vh;
+ font-size: 20px;
+ outline-style: none;
+ border-radius: 10px;
+}
+#buttons__container {
+margin-top: 15px;
+}
+#send__button {
+ width: 20%;
+ height: 5vh;
+ border-radius: 20px;
+ border: 1px solid black;
+ cursor: pointer;
+ background-color:brown;
+ font-size: 20px;
+ outline-style: none;
+ margin-right: 15px;
+}
+#reset__button {
+ width: 20%;
+ height: 5vh;
+ border-radius: 20px;
+ border: 1px solid black;
+ cursor: pointer;
+ background-color:yellow;
+ font-size: 20px;
+ outline-style: none;
+ margin-left: 15px;
+}
